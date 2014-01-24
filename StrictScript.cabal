@@ -1,0 +1,13 @@
+name:                StrictScript
+version:             0.1.0.0
+homepage:            kevinmahoney.co.uk
+license:             MIT
+license-file:        LICENSE
+author:              Kevin Mahoney
+maintainer:          kevin@kevinmahoney.co.uk
+build-type:          Simple
+cabal-version:       >=1.8
+
+executable StrictScript
+  main-is:             Main.hs
+  build-depends:       base ==4.6.*, containers ==0.5.*, mtl ==2.1.*, parsec ==3.1.*, QuickCheck ==2.6.*
